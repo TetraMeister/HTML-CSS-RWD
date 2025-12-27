@@ -1,0 +1,13 @@
+@use './../abstracts/font-faces' as *;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+}
+
+button {
+  font-family: inherit;
+}
