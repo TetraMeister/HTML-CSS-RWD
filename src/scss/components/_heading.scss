@@ -1,0 +1,8 @@
+@use './../abstracts/variables' as *;
+@use './../abstracts/mixins' as *;
+
+.heading {
+  background: url('./../../src/images/banner/banner.png') center / cover no-repeat;
+  width: 100%;
+  height: 600px;
+}
