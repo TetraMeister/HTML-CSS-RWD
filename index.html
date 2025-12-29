@@ -21,33 +21,42 @@
         class="heading__logo cell"
         href="/"
       >AppLab</a>
-      <label for="burger-menu">
+      <label
+        for="burger-menu"
+        class="cell heading__burger-container"
+      >
         <img
-          src="./images/icons/icons-menu.svg"
+          src="./src/images/icons/icons-menu.svg"
           alt="Open Menu"
-          class="heading__burger-icon cell"
+          class="heading__burger-icon"
         >
       </label>
       <input
         type="checkbox"
         id="burger-menu"
-        hidden
+        class="heading__burger-checkbox"
       >
       <ul class="heading__menu-list cell">
-        <li class="heading__menu-item"><a href="#home">Home</a></li>
-        <li class="heading__menu-item"><a href="#features">Features</a></li>
-        <li class="heading__menu-item"><a href="#pricing">Pricing</a></li>
-        <li class="heading__menu-item"><a href="#blog">Blog</a></li>
-        <li class="heading__menu-item"><a href="#pages">Pages</a></li>
-        <li class="heading__menu-item"><a href="#contact">Contact</a></li>
+        <li class="heading__menu-list-item"><a href="#home">Home</a></li>
+        <li class="heading__menu-list-item"><a href="#features">Features</a></li>
+        <li class="heading__menu-list-item"><a href="#pricing">Pricing</a></li>
+        <li class="heading__menu-list-item"><a href="#blog">Blog</a></li>
+        <li class="heading__menu-list-item"><a href="#pages">Pages</a></li>
+        <li class="heading__menu-list-item"><a href="#contact">Contact</a></li>
       </ul>
-      <button type="button">Download</button>
+      <button
+        type="button"
+        class="heading__btn"
+      >Download</button>
     </nav>
     <section class="heading__hero-container container">
       <div class="heading__hero-message cell">
-        <h1>promote your app with applab</h1>
-        <p>Get more users to promote your app with this template</p>
-        <button type="button">get start now</button>
+        <h1 class="heading__hero-title">promote your app with applab</h1>
+        <p class="heading__hero-text">Get more users to promote your app with this template</p>
+        <button
+          type="button"
+          class="heading__hero-btn"
+        >get start now</button>
       </div>
       <div
         aria-hidden="true"
