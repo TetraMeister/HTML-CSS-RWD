@@ -1,0 +1,66 @@
+@use './../abstracts/variables' as *;
+@use './../abstracts/mixins' as *;
+@use './../abstracts/font-faces' as *;
+
+.advantages {
+  color: $theme-light-grey-color;
+  text-align: center;
+
+  &__heading {
+    margin-top: 2em;
+  }
+
+  &__title {
+    font-size: 2em;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+
+  &__list {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3em;
+    padding: 2em 0;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 200px;
+    gap: 1em;
+
+    &--3 .advantages__icon-container {
+      background: $theme-green-color;
+    }
+
+    &--2 .advantages__icon-container {
+      background: $theme-blue-color;
+    }
+
+    &--1 .advantages__icon-container {
+      background: $theme-orange-color;
+    }
+  }
+
+  &__icon {
+    max-width: 40px;
+
+    &-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: .8em;
+      width: 80px;
+      height: 80px;
+    }
+  }
+
+  &__text {
+    font-size: 1.2em;
+    font-weight: 300;
+  }
+}
