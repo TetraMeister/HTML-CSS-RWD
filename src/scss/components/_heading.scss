@@ -69,7 +69,7 @@
   &__hero-title {
     line-height: 1.1;
     font-weight: 300;
-    font-size: 2em;
+    font-size: 2.5em;
     text-transform: capitalize;
     margin-bottom: .5em;
   }
@@ -90,6 +90,7 @@
     padding: 1em 1.5em;
     margin: 3em 0;
     transition: scale 250ms ease-in-out;
+    font-size: 1em;
   }
 
   &__hero-btn:hover {
@@ -111,11 +112,7 @@
     &__hero-container {
       display: flex;
       padding: 7em 5em 0 5em;
-    }
-
-    &__hero-message,
-    &__hero-img-container {
-      flex: 1;
+      justify-content: center;
     }
 
     &__hero-message {
@@ -189,6 +186,7 @@
       background-color: $theme-blue-color;
       border-radius: .3em;
       transition: all 250ms ease-in-out;
+      font-size: .8em;
     }
 
     &__btn:hover,
@@ -204,20 +202,12 @@
     // Hero
     &__hero-container {
       padding: 7em 2em 0 2em;
+      justify-content: space-between;
     }
 
     &__hero-message {
       padding-top: 10%;
       max-width: none;
-      flex: 2;
-    }
-
-    &__hero-title {
-      font-size: 3em;
-    }
-
-    &__hero-btn {
-      font-size: 1em;
     }
 
   }

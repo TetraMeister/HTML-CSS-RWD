@@ -387,6 +387,12 @@ p {
 /* ———— END THE GENERIC RESETS ———— */
 html {
   scroll-behavior: smooth;
+  font-size: 14px;
+}
+@media (min-width: 1280px) {
+  html {
+    font-size: 20px;
+  }
 }
 
 body {
@@ -395,6 +401,7 @@ body {
 
 button {
   font-family: inherit;
+  font-size: inherit;
 }
 
 a {
@@ -472,7 +479,7 @@ a {
 .heading__hero-title {
   line-height: 1.1;
   font-weight: 300;
-  font-size: 2em;
+  font-size: 2.5em;
   text-transform: capitalize;
   margin-bottom: 0.5em;
 }
@@ -491,6 +498,7 @@ a {
   padding: 1em 1.5em;
   margin: 3em 0;
   transition: scale 250ms ease-in-out;
+  font-size: 1em;
 }
 .heading__hero-btn:hover {
   scale: 1.1;
@@ -504,9 +512,7 @@ a {
   .heading__hero-container {
     display: flex;
     padding: 7em 5em 0 5em;
-  }
-  .heading__hero-message, .heading__hero-img-container {
-    flex: 1;
+    justify-content: center;
   }
   .heading__hero-message {
     padding: 0;
@@ -561,6 +567,7 @@ a {
     background-color: #5DB2FF;
     border-radius: 0.3em;
     transition: all 250ms ease-in-out;
+    font-size: 0.8em;
   }
   .heading__btn:hover, .heading__btn:focus {
     background-color: #37ebed;
@@ -571,17 +578,11 @@ a {
   }
   .heading__hero-container {
     padding: 7em 2em 0 2em;
+    justify-content: space-between;
   }
   .heading__hero-message {
     padding-top: 10%;
     max-width: none;
-    flex: 2;
-  }
-  .heading__hero-title {
-    font-size: 3em;
-  }
-  .heading__hero-btn {
-    font-size: 1em;
   }
 }
 
@@ -591,7 +592,7 @@ a {
   margin: 2em 0;
 }
 .advantages__title {
-  font-size: 2em;
+  font-size: 2.2em;
   font-weight: 300;
   letter-spacing: 1px;
 }
@@ -650,9 +651,6 @@ a {
   .advantages {
     margin: 10em 0;
   }
-  .advantages__title {
-    font-size: 2.7em;
-  }
   .advantages__list {
     padding-top: 8em;
   }
@@ -666,9 +664,6 @@ a {
   .advantages__icon-container {
     height: 120px;
     width: 120px;
-  }
-  .advantages__text {
-    font-size: 1.4em;
   }
 }
 
