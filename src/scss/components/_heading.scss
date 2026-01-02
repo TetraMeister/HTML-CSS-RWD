@@ -63,12 +63,12 @@
   // Hero
   &__hero-message {
     color: white;
-    letter-spacing: .07em;
+    letter-spacing: $standard-letter-spacing;
     padding: 40px 0;
   }
 
   &__hero-title {
-    line-height: 1.1;
+    line-height: $title-txt-line-height;
     font-weight: 300;
     font-size: 2.5em;
     text-transform: capitalize;
@@ -81,7 +81,7 @@
 
   &__hero-btn {
     color: inherit;
-    letter-spacing: .1em;
+    letter-spacing: $button-letter-spacing;
     font-weight: 500;
     text-transform: capitalize;
     outline: none;
@@ -189,6 +189,7 @@
       border-radius: .3em;
       transition: all 250ms ease-in-out;
       font-size: .8em;
+      letter-spacing: $button-letter-spacing;
     }
 
     &__btn:hover,
@@ -212,6 +213,6 @@
     }
 
   }
-
-  // END OF DESKTOP
 }
+
+// END OF DESKTOP
