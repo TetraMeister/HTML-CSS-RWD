@@ -414,6 +414,12 @@ a {
 
 .container {
   width: 100%;
+  padding: 0 1em;
+}
+@media (min-width: 600px) {
+  .container {
+    padding: 0 2em;
+  }
 }
 @media (min-width: 1280px) {
   .container {
@@ -434,8 +440,9 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.2em 1em;
   position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .heading__burger-container {
   display: flex;
@@ -474,7 +481,7 @@ a {
 .heading__hero-message {
   color: white;
   letter-spacing: 0.07em;
-  padding: 40px 20px;
+  padding: 40px 0;
 }
 .heading__hero-title {
   line-height: 1.1;
@@ -511,8 +518,8 @@ a {
 @media (min-width: 600px) {
   .heading__hero-container {
     display: flex;
-    padding: 7em 5em 0 5em;
     justify-content: center;
+    padding-top: 7em;
   }
   .heading__hero-message {
     padding: 0;
@@ -554,7 +561,8 @@ a {
     background-color: white;
     transition: width 250ms ease-in-out;
     bottom: 30%;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .heading__menu-list-item:hover::after, .heading__burger-checkbox:checked + .heading__menu-list-item:hover::after {
     width: 105%;
@@ -577,7 +585,6 @@ a {
     display: none;
   }
   .heading__hero-container {
-    padding: 7em 2em 0 2em;
     justify-content: space-between;
   }
   .heading__hero-message {

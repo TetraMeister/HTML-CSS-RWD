@@ -11,8 +11,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: .2em 1em;
     position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   &__burger-container {
@@ -63,7 +64,7 @@
   &__hero-message {
     color: white;
     letter-spacing: .07em;
-    padding: 40px 20px;
+    padding: 40px 0;
   }
 
   &__hero-title {
@@ -111,8 +112,8 @@
     // Hero
     &__hero-container {
       display: flex;
-      padding: 7em 5em 0 5em;
       justify-content: center;
+      padding-top: 7em;
     }
 
     &__hero-message {
@@ -170,7 +171,8 @@
         background-color: white;
         transition: width 250ms ease-in-out;
         bottom: 30%;
-        left: 0;
+        left: 50%;
+        transform: translateX(-50%);
       }
 
       &-item:hover::after {
@@ -201,7 +203,6 @@
 
     // Hero
     &__hero-container {
-      padding: 7em 2em 0 2em;
       justify-content: space-between;
     }
 

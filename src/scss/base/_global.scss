@@ -29,6 +29,11 @@ a {
 
 .container {
   width: 100%;
+  padding: 0 1em;
+
+  @include response(tablet) {
+    padding: 0 2em;
+  }
 
   @include response(desktop) {
     max-width: 1600px;
