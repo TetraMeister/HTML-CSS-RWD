@@ -58,10 +58,7 @@
           class="heading__hero-btn"
         >get start now</button>
       </div>
-      <div
-        aria-hidden="true"
-        class="heading__hero-img-container cell"
-      >
+      <div class="heading__hero-img-container cell">
         <img
           src="./src/images/phone.png"
           alt="Mobile app screen"
@@ -82,6 +79,7 @@
             <img
               src="./src/images/icons/2.svg"
               class="advantages__icon"
+              alt=""
             >
           </div>
           <figcaption class="advantages__text">Manage team in One Place</figcaption>
@@ -93,6 +91,7 @@
             <img
               src="./src/images/icons/1.svg"
               class="advantages__icon"
+              alt=""
             >
           </div>
           <figcaption class="advantages__text">All-powerful Pointing has no control</figcaption>
@@ -104,6 +103,7 @@
             <img
               src="./src/images/icons/3.svg"
               class="advantages__icon"
+              alt=""
             >
           </div>
           <figcaption class="advantages__text">Establish a solid online presence</figcaption>
@@ -147,7 +147,7 @@
           obcaecati voluptatibus voluptatem dolorum laudantium.</p>
         <footer class="testimonial__foot">
           <span class="testimonial__mark">★★★★★</span>
-          <span class="testimonial__author">Robert Smile</span>
+          <span class="testimonial__author">~Robert Smile</span>
         </footer>
       </blockquote>
     </article>
@@ -156,12 +156,12 @@
   <section class="pricing row">
     <header class="pricing__heading container">
       <h2 class="pricing__title cell">Unlock full Power</h2>
-      <p class="pricing_text cell">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit iste vitae deleniti
+      <p class="pricing__text cell">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit iste vitae deleniti
         numquam.</p>
     </header>
     <ul class="pricing__list container">
       <li class="pricing__item cell">
-        <header class="pricing__option">
+        <header class="pricing__option pricing__item--1">
           <h3 class="pricing__name">Basic</h3>
           <span class="pricing__price">$06</span>
         </header>
@@ -176,7 +176,7 @@
         >Get Now</a>
       </li>
       <li class="pricing__item cell">
-        <header class="pricing__option">
+        <header class="pricing__option pricing__item--2">
           <h3 class="pricing__name">Team</h3>
           <span class="pricing__price">$06</span>
         </header>
@@ -192,7 +192,7 @@
         >Get Now</a>
       </li>
       <li class="pricing__item cell">
-        <header class="pricing__option">
+        <header class="pricing__option pricing__item--3">
           <h3 class="pricing__name">Business</h3>
           <span class="pricing__price">$06</span>
         </header>
@@ -214,22 +214,28 @@
   <section class="cta row">
     <div class="cta__container container">
       <h2 class="cell cta__title">Get started from now and increase productivity</h2>
-    </div>
-    <div class="cta__img-container cell">
-      <a class="cta__img">
-        <img
-          src="./src/images/app.svg"
-          alt="Click to download the app on App Store"
-          class="cta__img--app"
+      <div class="cta__img-container cell">
+        <a
+          href="/"
+          class="cta__img cell"
         >
-      </a>
-      <a class="cta__img">
-        <img
-          src="./src/images/play.svg"
-          alt="Click to download the app on Google Play"
-          class="cta-img--google"
+          <img
+            src="./src/images/app.svg"
+            alt="Click to download the app on App Store"
+            class="cta__img--app"
+          >
+        </a>
+        <a
+          href="/"
+          class="cta__img cell"
         >
-      </a>
+          <img
+            src="./src/images/play.svg"
+            alt="Click to download the app on Google Play"
+            class="cta__img--play"
+          >
+        </a>
+      </div>
     </div>
   </section>
 

@@ -44,15 +44,15 @@
 
   &__icon {
     max-width: 40px;
+  }
 
-    &-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: .8em;
-      width: 80px;
-      height: 80px;
-    }
+  &__icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .8em;
+    width: 80px;
+    height: 80px;
   }
 
   &__text {
@@ -69,7 +69,7 @@
       align-items: flex-start;
       justify-content: space-evenly;
       padding-top: 6em;
-      gap: initial;
+      gap: 0;
     }
   }
 

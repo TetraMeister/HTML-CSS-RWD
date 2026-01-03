@@ -1,0 +1,82 @@
+@use './../abstracts/variables' as *;
+@use './../abstracts/mixins' as *;
+@use './../abstracts/font-faces' as *;
+
+.testimonial {
+  margin-top: 5em;
+  background: linear-gradient(rgba($theme-blue-color, 0.9), rgba($theme-blue-color, 0.9)), url('/src/images/banner/testmonial.png') top / cover no-repeat;
+
+  &__container {
+    text-align: center;
+    color: white;
+    padding: 5em 1em;
+    letter-spacing: $standard-letter-spacing;
+  }
+
+  &__title {
+    font-size: 2.2em;
+    font-weight: 300;
+    line-height: $title-txt-line-height;
+  }
+
+  &__quote {
+    border: none;
+    padding-bottom: 0;
+  }
+
+  &__text {
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: $standard-txt-line-height;
+  }
+
+  &__foot {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__mark {
+    color: gold;
+    font-size: 2em;
+  }
+
+  &__author {
+    text-transform: capitalize;
+  }
+
+  // TABLET
+  @include response(tablet) {
+    & {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__title {
+      max-width: 300px;
+    }
+
+    &__quote {
+      padding-top: 5em;
+    }
+  }
+
+  // DESKTOP
+  @include response(desktop) {
+    & {
+      padding: 5em 0;
+    }
+
+    &__title {
+      max-width: 500px;
+    }
+  }
+}

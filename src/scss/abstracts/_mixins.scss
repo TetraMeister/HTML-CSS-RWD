@@ -1,3 +1,5 @@
+// Breakpoints
+
 @mixin response($breakpoint) {
   @if $breakpoint ==tablet {
     @media (min-width: 600px) {
@@ -8,6 +10,24 @@
   @else if $breakpoint ==desktop {
     @media (min-width: 1280px) {
       @content;
+    }
+  }
+}
+
+// Colors
+
+@mixin pricing-card-bg($colors) {
+  @each $key, $color in $colors {
+    &--#{$key} {
+      background-color: $color;
+    }
+  }
+}
+
+@mixin pricing-card-color($colors) {
+  @each $key, $color in $colors {
+    &--#{$key} .pricing__price {
+      color: $color;
     }
   }
 }

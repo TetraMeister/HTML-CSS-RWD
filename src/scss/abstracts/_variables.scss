@@ -1,6 +1,7 @@
 // COLORS
 $theme-grey-color: #2C2C2C;
 $theme-light-grey-color: #565656;
+$theme-light-grey-off-color: rgba(86, 86, 86, 0.8);
 $theme-super-light-grey-color: #FDFDFD;
 $theme-blue-color: #5DB2FF;
 $theme-seledyn-color: #37ebed;
@@ -19,3 +20,16 @@ $button-letter-spacing: .1em;
 $standard-txt-line-height: 2;
 $title-txt-line-height: 1.1;
 // END OF SPACING
+
+// BOARDS
+$pricing-bg-colors: (
+  1: $theme-light-blue-color,
+  2: $theme-light-orange-color,
+  3: $theme-light-green-color
+);
+
+$pricing-colors: (
+  1: $theme-blue-color,
+  2: $theme-orange-color,
+  3: $theme-green-color
+);

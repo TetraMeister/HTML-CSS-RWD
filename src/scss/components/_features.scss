@@ -41,17 +41,16 @@
     margin: 2em 0;
     transition: scale 250ms ease-in-out;
     font-size: 1em;
-  }
 
-  &__btn:hover {
-    scale: 1.1;
+    &:hover {
+      scale: 1.1;
+    }
   }
 
   &__img-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0;
   }
 
   // TABLET
