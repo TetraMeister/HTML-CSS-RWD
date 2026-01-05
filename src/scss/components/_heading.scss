@@ -56,7 +56,7 @@
   }
 
   &__menu-list-item:hover,
-  &__menu-list-item:focus {
+  &__menu-list-item:focus-visible {
     background-color: $theme-light-grey-color;
   }
 
@@ -94,7 +94,8 @@
     font-size: 1em;
   }
 
-  &__hero-btn:hover {
+  &__hero-btn:hover,
+  &__hero-btn:focus-visible {
     scale: 1.1;
   }
 
@@ -159,7 +160,7 @@
       }
 
       &-item:hover,
-      &-item:focus {
+      &-item:focus-visible {
         background-color: transparent;
       }
 
@@ -193,7 +194,7 @@
     }
 
     &__btn:hover,
-    &__btn:focus {
+    &__btn:focus-visible {
       background-color: $theme-seledyn-color;
       border-radius: 1em;
     }

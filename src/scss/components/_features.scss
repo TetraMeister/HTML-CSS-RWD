@@ -42,7 +42,8 @@
     transition: scale 250ms ease-in-out;
     font-size: 1em;
 
-    &:hover {
+    &:hover,
+    &:focus-visible {
       scale: 1.1;
     }
   }

@@ -1,114 +1,37 @@
 @charset "UTF-8";
 @font-face {
   font-family: Poppins;
-  src: url("./../../src/fonts/Poppins-Thin.ttf") format("truetype");
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: Poppins;
-  src: url("./../../src/fonts/Poppins-ThinItalic.ttf") format("truetype");
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: Poppins;
-  src: url("./../../src/fonts/Poppins-ExtraLight.ttf") format("truetype");
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: Poppins;
-  src: url("./../../src/fonts/Poppins-ExtraLightItalic.ttf") format("truetype");
-  font-weight: 200;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: Poppins;
-  src: url("./../../src/fonts/Poppins-Light.ttf") format("truetype");
+  src: url("./../fonts/Poppins-Light.ttf");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: Poppins;
-  src: url("./../../src/fonts/Poppins-LightItalic.ttf") format("truetype");
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: Poppins;
-  src: url("./../../src/fonts/Poppins-Regular.ttf") format("truetype");
+  src: url("./../fonts/Poppins-Regular.ttf");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: Poppins;
-  src: url("./../../src/fonts/Poppins-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: Poppins;
-  src: url("./../../src/fonts/Poppins-Medium.ttf") format("truetype");
+  src: url("./../fonts/Poppins-Medium.ttf");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: Poppins;
-  src: url("./../../src/fonts/Poppins-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: Poppins;
-  src: url("./../../src/fonts/Poppins-SemiBold.ttf") format("truetype");
+  src: url("./../fonts/Poppins-SemiBold.ttf");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: Poppins;
-  src: url("./../../src/fonts/Poppins-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: Poppins;
-  src: url("./../../src/fonts/Poppins-Bold.ttf") format("truetype");
+  src: url("./../fonts/Poppins-Bold.ttf");
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: Poppins;
-  src: url("./../../src/fonts/Poppins-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: Poppins;
-  src: url("./../../src/fonts/Poppins-ExtraBold.ttf") format("truetype");
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: Poppins;
-  src: url("./../../src/fonts/Poppins-ExtraBoldItalic.ttf") format("truetype");
-  font-weight: 800;
-  font-style: italic;
   font-display: swap;
 }
 html,
@@ -472,7 +395,7 @@ a {
   transition: background-color 250ms ease-in-out;
   color: white;
 }
-.heading__menu-list-item:hover, .heading__menu-list-item:focus {
+.heading__menu-list-item:hover, .heading__menu-list-item:focus-visible {
   background-color: #565656;
 }
 .heading__hero-message {
@@ -504,7 +427,7 @@ a {
   transition: scale 250ms ease-in-out;
   font-size: 1em;
 }
-.heading__hero-btn:hover {
+.heading__hero-btn:hover, .heading__hero-btn:focus-visible {
   scale: 1.1;
 }
 .heading__hero-img-container {
@@ -547,7 +470,7 @@ a {
     justify-content: center;
     position: relative;
   }
-  .heading__menu-list-item:hover, .heading__menu-list-item:focus, .heading__burger-checkbox:checked + .heading__menu-list-item:hover, .heading__burger-checkbox:checked + .heading__menu-list-item:focus {
+  .heading__menu-list-item:hover, .heading__menu-list-item:focus-visible, .heading__burger-checkbox:checked + .heading__menu-list-item:hover, .heading__burger-checkbox:checked + .heading__menu-list-item:focus-visible {
     background-color: transparent;
   }
   .heading__menu-list-item::after, .heading__burger-checkbox:checked + .heading__menu-list-item::after {
@@ -575,7 +498,7 @@ a {
     font-size: 0.8em;
     letter-spacing: 0.1em;
   }
-  .heading__btn:hover, .heading__btn:focus {
+  .heading__btn:hover, .heading__btn:focus-visible {
     background-color: #37ebed;
     border-radius: 1em;
   }
@@ -708,7 +631,7 @@ a {
   transition: scale 250ms ease-in-out;
   font-size: 1em;
 }
-.features__btn:hover {
+.features__btn:hover, .features__btn:focus-visible {
   scale: 1.1;
 }
 .features__img-container {
@@ -877,8 +800,9 @@ a {
   margin-bottom: 2em;
   transition: all 250ms ease-in-out;
 }
-.pricing__purchase-link:hover {
+.pricing__purchase-link:hover, .pricing__purchase-link:focus-visible {
   background-color: #E9F4FE;
+  transform: translateY(-5px);
 }
 @media (min-width: 600px) {
   .pricing {
@@ -1029,6 +953,9 @@ a {
     padding-bottom: 8em;
     gap: 0;
     justify-content: space-between;
+  }
+  .foot__heading {
+    max-width: 500px;
   }
 }
 
