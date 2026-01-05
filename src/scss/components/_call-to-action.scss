@@ -20,7 +20,6 @@
   // TABLET
   @include response(tablet) {
     &__container {
-      text-align: left;
       padding: 8em 4em;
     }
 

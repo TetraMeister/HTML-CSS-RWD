@@ -1,0 +1,111 @@
+@use './../abstracts/variables' as *;
+@use './../abstracts/mixins' as *;
+@use './../abstracts/font-faces' as *;
+
+.foot {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: $theme-grey-color;
+
+  &__navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+
+  &__heading {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  &__title {
+    font-size: 1.4em;
+    font-weight: 600;
+  }
+
+  &__text {
+    color: $theme-super-light-grey-off-color;
+    font-size: 1em;
+  }
+
+  &__socials-links {
+    display: flex;
+    gap: .5em;
+  }
+
+  &__social-link {
+    background-color: $theme-light-grey-color;
+    color: $theme-super-light-grey-off-color;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__links-categories {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  &__category-title {
+    margin-bottom: .8em;
+    font-size: 1.4em;
+    font-weight: 300;
+  }
+
+  &__links-list {
+    color: $theme-super-light-grey-off-color;
+    display: flex;
+    flex-direction: column;
+    gap: .8em;
+  }
+
+  &__copy {
+    background-color: #000;
+    padding: 1em;
+    text-align: center;
+    letter-spacing: $standard-letter-spacing;
+    line-height: $standard-txt-line-height;
+
+    &-text {
+      color: $theme-super-light-grey-off-color;
+    }
+
+    &-link {
+      color: $theme-blue-color;
+    }
+  }
+
+  // TABLET 
+  @include response(tablet) {
+    &__navigation {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 2em;
+    }
+
+    &__links-categories {
+      display: contents;
+    }
+  }
+
+  // DESKTOP
+  @include response(desktop) {
+    &__navigation {
+      display: flex;
+      flex-direction: row;
+      padding-top: 8em;
+      padding-bottom: 8em;
+      gap: 0;
+      justify-content: space-between;
+    }
+  }
+}
