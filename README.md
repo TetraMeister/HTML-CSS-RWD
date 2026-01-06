@@ -24,7 +24,7 @@ A fully responsive landing page template showcasing mobile-first design principl
 
 ## 💿 Installation
 
-No installation required. Simply open [index.html](index.html) in your browser to view the project.
+No installation required. Simply open [index.html](index.html) in your browser to view the project (remember to have "src" directory inside your root folder).
 
 If you want to work with SCSS files, you'll need [node](https://nodejs.org/en/) and [npm](https://www.npmjs.com/). Having them installed, type into the terminal: `npm i`.
 
