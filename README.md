@@ -1,5 +1,3 @@
-![Responsive Landing Page Template](https://via.placeholder.com/1000x300)
-
 
 # Responsive Landing Page - RWD Project
 
@@ -125,7 +123,7 @@ If you want to work with SCSS files, you'll need [node](https://nodejs.org/en/) 
 .heading__hero-btn:focus-visible {
   scale: 1.1;
 }
-
+```
 
 &nbsp;
 
