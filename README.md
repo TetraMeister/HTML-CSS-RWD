@@ -1,109 +1,154 @@
-> ⭐ ***README** to coś więcej niż opis. Poprzez nie **pokazujesz swoje mocne strony** – swoją dokładność, sposób myślenia i podejście do rozwiązywania problemów. Niech Twoje README pokaże, że masz **świetne predyspozycje do rozwoju!***
-> 
-> 🎁 *Zacznij od razu. Skorzystaj z **[szablonu README i wskazówek](https://github.com/devmentor-pl/readme-template)**.* 
-
-&nbsp;
+![Responsive Landing Page Template](https://via.placeholder.com/1000x300)
 
 
+# Responsive Landing Page - RWD Project
 
-# HTML & CSS: Responsywność (RWD)
+A fully responsive landing page template showcasing mobile-first design principles and modern CSS techniques. Built with semantic HTML5 and CSS3 (SCSS) to demonstrate proficiency in responsive web design.
 
-Czas zakodować stronę, która ma przygotowane 3 widoki dla różnych punktów granicznych (ang. breakpoints):
-
-- mobile
-- tablet
-- desktop.
-
-## Od czego zacząć?
-
-Przeczytaj dokładnie treść, którą zamieszczam poniżej. Następnie zapoznaj się ze zrzutami ekranu prezentującymi poszczególne widoki – znajdziesz je w katalogu `./assets`.
-
-Na każdym widoku zaznacz sobie, które elementy to oddzielne sekcje strony. Zwróć uwagę, jak się one zmieniają podczas przechodzenia z jednego widoku do drugiego. To ułatwi Ci zaplanowanie układu.
-
-Zacznij od **widoku na telefon**. Możesz użyć [PerfectPixela](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=pl) – dodatku do przeglądarki Chrome – aby ułatwić sobie kodowanie. Pamiętaj, że nie warto odzwierciedlać projektu 1:1 co do piksela. Masz zaznajomić się z technikami RWD i przy okazji utrwalić wiedzę z HTML-a i CSS-a. Widok ma być podobny do pierwowzoru: zachować koncepcję i estetykę oraz dopasowanie do najważniejszych rozdzielczości. Nie ma być identyczny, a w zasadzie nie może być, ponieważ na każdym urządzeniu z inną rozdzielczością będzie się prezentował trochę inaczej.
-
-Jeśli będziesz korzystać z PerfectPixela, pamiętaj o ustawieniu prawidłowej skali dla podglądu obrazu oraz ustawienia odpowiedniej szerokości dla okna przeglądarki.
-
-Możesz również skorzystać z dodatku [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp), dzięki któremu pobierzesz kolor ze wskazanego miejsca. Wystarczy wyświetlić obraz w przeglądarce Chrome i użyć tego rozszerzenia. 
-
-Kiedy skończysz kodować widok dla telefonu, zajmij się **widokiem tabletowym**. Pamiętaj, aby sprawdzać, czy zmiany wprowadzone do widoku tabletowego nie spowodowały zmian w widoku mobilnym.
-
-Po skończeniu kodowania widoku dla tabletu zajmij się **desktopem**. Ponownie pamiętaj o częstym sprawdzaniu, czy czegoś nie popsułeś w poprzednich wersjach. Im wcześniej się zorientujesz, że coś nie działa, tym łatwiej będzie Ci to naprawić.
-
-## Zasoby
-
-### Fonty
-
-Font wykorzystywany w projekcie to `Poppins`. Znajdziesz go w [Google Fonts](https://fonts.google.com/specimen/Poppins).
-
-### Obrazy
-
-Wszystkie niezbędne obrazy, w tym kształty, znajdziesz w katalogu `./images`. 
-
-### Ikony
-
-Ikony mediów społecznościowych znajdujące się w stopce stwórz przy pomocy [Font Awesome](https://fontawesome.com/).
-
-
-## Widoki
-
-Nie podaję dokładnych punktów granicznych, abyś sam mógł ocenić, kiedy zrobić przejście.
-
-Zamieszczam tylko informację, dla jakich rozdzielczości był robiony przedstawiony zrzut ekranu:
-
- - mobile => 600px
- - tablet => 900px
- - desktop => 1200px
-
-### mobile => 600px
-
-![](./assets/mobile.png)
-
-### tablet => 900px
-
-![](./assets/tablet.png)
-
-### desktop => 1200px
-
-![](./assets/desktop.png)
-
-# Zadanie dodatkowe
-
-Najwyższy czas zaprezentować swoje umiejętności znajomym na Facebooku czy Instagramie! Być może właśnie w ten sposób zdobędziesz swoje pierwsze zlecenie – poważnie! Osoby, które Cię znają, są w stanie bardziej zaufać Tobie niż komuś „z ulicy”. Dzięki temu zdobędziesz, tak ważne przy rekrutacji, doświadczenie komercyjne.
-
-## GitHub Pages
-
-GitHub udostępnia funkcjonalność, która nazywa się [GitHub Pages](https://pages.github.com/). W ten sposób możemy „serwować” naszą stronę całkowicie za darmo na podstawie zawartości naszego repozytorium. Możliwość ta dotyczy jedynie stron statycznych korzystających z HTML-a, CSS-a i JavaScriptu – więc również z Reacta. 
-
-Wystarczy, że przejdziesz do [ustawień (Settings) swojego repozytorium](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source) i wybierzesz gałąź (branch), która zawiera pliki strony (pewnie będzie to `master` lub `main`). Po minucie czy dwóch strona powinna być już dostępna.
-
-Potrzebujesz szczegółowych instrukcji lub Twoja strona nie działa? Poszukaj wskazówek w moim artykule: [GitHub Pages – podgląd projektu na GitHubie](https://devmentor.pl/b/github-pages-podglad-projektu-na-githubie).
-
-> **Uwaga!** Czasami nawet GitHub ma problemy z własnymi serwerami/usługami i coś może nie działać, jak należy. Wtedy wystarczy sprawdzić „status” na [tej stronie](https://www.githubstatus.com/). Tego typu rozwiązanie jest dość powszechne.
-
-## Własna domena
-
-Mile widziana (a już na pewno, gdy znajdziesz klienta) będzie własna domena. Na szczęście GitHub Pages daje możliwość jej podpięcia.
-
-Koszt domeny to zaledwie kilkanaście złotych w pierwszym roku, a jej przedłużenie na kolejny rok to zazwyczaj mniej niż 99 zł (zależnie od końcówki). Taką domenę możesz kupić np. w [seohost.pl](https://seohost.pl/?ref=22965).
-
-> **Uwaga!** Nieuczciwe firmy oferują domeny w bardzo atrakcyjnych cenach za pierwszy rok, ale nadrabiają to kosztem przedłużenia, które musisz wykonać, jeśli chcesz zatrzymać domenę. Przeczytaj dokładnie regulamin, zanim dokonasz zakupu.
-
-Domena to nazwa wskazująca na konkretny serwer, na którym znajdują się pliki naszej strony internetowej. Wskazanie to jest realizowane przez [DNS](https://pl.wikipedia.org/wiki/Domain_Name_System).
-
-Jak przeczytamy w [dokumentacji GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain), możemy użyć [domeny](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain) lub [subdomeny](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain) (jeśli kupimy np. domenę devmentor.pl, to jej subdomeną będzie np. rwd.devmentor.pl). Aby to zrobić, musimy dodać odpowiedni rekord w ustawieniach DNS. Sposób wykonania tego zadania zależy od dostawcy domeny i jego panelu administracyjnego. W seohost możesz to zrobić w [taki sposób](https://seohost.pl/pomoc/konfiguracja-rekordow-dns-domeny). Jeśli sobie nie poradzisz, to support (pomoc techniczna) na pewno Ci pomoże. Zawsze byli dla mnie pomocni.
-
-> **Uwaga!** Dokonanie zmian w DNS (propagacja informacji) może trwać nawet 24 h (często jednak strona działa już po paru godzinach), dlatego wygodnie jest to robić wieczorem, aby rano mieć już sprawę załatwioną.
-
-# Prawa autorskie
-
-Wszelkie prawa autorskie oraz pokrewne do szablonu i elementów wchodzacych w jego skład należą do [colorlib.com](https://colorlib.com).
-Szablon i jego elementy mogą być wykorzystywane na zasadach zgodnych z [licencją](https://colorlib.com/wp/licence/).
-
+**Main features**:
+- Fully responsive design adapting to mobile, tablet, and desktop screens
+- Mobile-first CSS approach with progressive enhancement
+- Pure CSS hamburger menu (no JavaScript required)
+- Smooth animations and interactive hover effects
+- Custom typography with multiple font weights
+- Semantic HTML structure for better accessibility
 
 
 &nbsp;
 
-> ⭐ ***README** to coś więcej niż opis. Poprzez nie **pokazujesz swoje mocne strony** – swoją dokładność, sposób myślenia i podejście do rozwiązywania problemów. Niech Twoje README pokaże, że masz **świetne predyspozycje do rozwoju!***
-> 
-> 🎁 *Zacznij od razu. Skorzystaj z **[szablonu README i wskazówek](https://github.com/devmentor-pl/readme-template)**.* 
+## 💡 Technologies
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+
+
+&nbsp;
+
+## 💿 Installation
+
+No installation required. Simply open [index.html](index.html) in your browser to view the project.
+
+If you want to work with SCSS files, you'll need [node](https://nodejs.org/en/) and [npm](https://www.npmjs.com/). Having them installed, type into the terminal: `npm i`.
+
+
+&nbsp;
+
+## 🤔 Solutions provided in the project
+
+- **Mobile-first responsive design** - breakpoints implemented progressively from smallest to largest screens:
+```css
+/* Base mobile styles */
+.container {
+  padding: 0 1em;
+}
+
+/* Tablet */
+@media (min-width: 600px) {
+  .container {
+    padding: 0 3em;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1280px) {
+  .container {
+    padding: 0 2em;
+    max-width: 1600px;
+  }
+}
+```
+
+ &nbsp;
+
+- **Pure CSS hamburger menu** - toggle functionality without JavaScript using CSS checkbox hack:
+```css
+.heading__burger-checkbox:checked + .heading__menu-list {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #2C2C2C;
+}
+```
+ &nbsp;
+
+- **Custom font implementation** using @font-face with multiple weights for professional typography:
+```css
+@font-face {
+  font-family: Poppins;
+  src: url('./../fonts/Poppins-Light.ttf');
+  font-weight: 300;
+  font-display: swap;
+}
+```
+
+ &nbsp;
+
+- **BEM methodology** - Block Element Modifier naming convention for maintainable and scalable CSS:
+```html
+<section class="features row">
+  <div class="features__container container">
+    <div class="features__message cell">
+      <!-- Block: features, Element: container, message -->
+    </div>
+  </div>
+</section>
+```
+
+ &nbsp;
+
+- **SCSS mixins for theming** - reusable color variations for pricing cards maintaining DRY principles:
+```scss
+@mixin pricing-card-color($colors) {
+  @each $key, $color in $colors {
+    &--#{$key} .pricing__price {
+      color: $color;
+    }
+  }
+}
+
+.pricing__item {
+  @include pricing-card-color($pricing-colors);
+}
+```
+
+ &nbsp;
+
+- **Smooth transitions and hover effects** enhancing user experience with visual feedback on interactive elements:
+```css
+.heading__hero-btn {
+  transition: scale 250ms ease-in-out;
+}
+
+.heading__hero-btn:hover,
+.heading__hero-btn:focus-visible {
+  scale: 1.1;
+}
+
+
+&nbsp;
+
+## 💭 Conclusions for future projects
+
+Areas for improvement and further learning:
+
+#### Font optimization:
+```css
+/* Consider using variable fonts to reduce file size */
+/* and improve loading performance */
+@font-face {
+  font-family: 'Poppins Variable';
+  src: url('Poppins-Variable.woff2');
+  font-weight: 100 900;
+}
+```
+
+#### JavaScript enhancements:
+Add intersection observer for scroll animations and lazy loading images to improve performance on slower connections.
+
+
+&nbsp;
+
+## 👏 Thanks / Special thanks / Credits
+Thanks to my [Mentor - devmentor.pl](https://devmentor.pl/) – for providing me with this task and for code review.
