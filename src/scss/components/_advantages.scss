@@ -28,18 +28,6 @@
     justify-content: center;
     max-width: 200px;
     gap: 1em;
-
-    &--3 .advantages__icon-container {
-      background: $theme-green-color;
-    }
-
-    &--2 .advantages__icon-container {
-      background: $theme-blue-color;
-    }
-
-    &--1 .advantages__icon-container {
-      background: $theme-orange-color;
-    }
   }
 
   &__icon {
@@ -53,6 +41,18 @@
     border-radius: .8em;
     width: 80px;
     height: 80px;
+
+    &--first {
+      background: $theme-orange-color;
+    }
+
+    &--second {
+      background: $theme-blue-color;
+    }
+
+    &--third {
+      background: $theme-green-color;
+    }
   }
 
   &__text {

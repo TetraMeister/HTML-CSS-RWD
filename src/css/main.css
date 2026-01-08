@@ -539,15 +539,6 @@ a {
   max-width: 200px;
   gap: 1em;
 }
-.advantages__card--3 .advantages__icon-container {
-  background: #37ef8d;
-}
-.advantages__card--2 .advantages__icon-container {
-  background: #5DB2FF;
-}
-.advantages__card--1 .advantages__icon-container {
-  background: #fd905e;
-}
 .advantages__icon {
   max-width: 40px;
 }
@@ -558,6 +549,15 @@ a {
   border-radius: 0.8em;
   width: 80px;
   height: 80px;
+}
+.advantages__icon-container--first {
+  background: #fd905e;
+}
+.advantages__icon-container--second {
+  background: #5DB2FF;
+}
+.advantages__icon-container--third {
+  background: #37ef8d;
 }
 .advantages__text {
   font-size: 1.2em;
