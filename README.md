@@ -28,6 +28,8 @@ No installation required. Simply open [index.html](index.html) in your browser t
 
 If you want to work with SCSS files, you'll need [node](https://nodejs.org/en/) and [npm](https://www.npmjs.com/). Having them installed, type into the terminal: `npm i`.
 
+You can also simply click this ![linl](https://tetrameister.github.io/HTML-CSS-RWD/) to see live demo.
+
 
 &nbsp;
 
